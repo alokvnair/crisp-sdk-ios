@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 workspace './Crisp.xcworkspace'
-platform :ios, '10.0'
+platform :ios, '9.0'
 
 use_frameworks!
 inhibit_all_warnings!
@@ -18,7 +18,6 @@ target 'Crisp' do
   pod 'SDWebImage/GIF'
   pod 'Lightbox'
   pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
-  pod 'Alamofire', '~> 4.0'
   pod 'NVActivityIndicatorView'
   pod 'DateToolsSwift'
 end
@@ -34,7 +33,6 @@ target 'Example' do
   pod 'SDWebImage/GIF'
   pod 'Lightbox'
   pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
-  pod 'Alamofire', '~> 4.0'
   pod 'NVActivityIndicatorView'
   pod 'DateToolsSwift'
 end
